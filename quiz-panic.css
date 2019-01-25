@@ -44,34 +44,42 @@ table {
 /*******************************Reset********************************/
 
 h2 {
+	width: 500px;
 	text-align: center;
+	font-size: 3em;
 }
 
 #question {
 	display: block;
 	height: 100px;
-	width: 100%;
+	width: 500px;
+	background-color: green;
 }
 
 #blocreponse1,#blocreponse2 {
+	margin: 5px;
 	display: block;
 	height: 200px;
-	width: 100%;
+	width: 500px;
 }
 
 .reponse {
 	display: inline-block;
+	background-color: blue;
+	margin: 5px;
 	height: 200px;
-	width: 49.5%;
+	width: 230px;
 }
 
 #info {
+	width: 500px;
 	height: 100px;
 }
 
 #avatar,#timer {
 	display:  inline-block;
+	margin: 10px;
 	height: 100px;
-	width: 49.5%;
+	width: 225px;
 	text-align: center;
 }
